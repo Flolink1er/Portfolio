@@ -82,6 +82,4 @@ https://github.com/Flolink1er/jobs-presentation-website
 ---
 
 ## Contact
-📧 Email : flolink1er@gmail.com
-
-🔗 GitHub : https://github.com/Flolink1er
+📄 [Mon CV](cv/Florian_Marchal_CV_Stage_Dev_Frontend.pdf) | 📧 [Email](mailto:flolink1er@gmail.com) | 🔗 [GitHub](https://github.com/Flolink1er)
