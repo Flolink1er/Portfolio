@@ -3,6 +3,8 @@ Stagiaire développeur web front-end
 Formation IFAPME – Belgique
 
 📄 **CV (PDF)** : [Télécharger mon CV](cv/Florian_Marchal_CV_Stage_Dev_Frontend.pdf)
+🖨️ **CV Imprimable** : [Télécharger mon CV](cv/Florian_Marchal_CV_Stage_Dev_Frontend_printable.pdf)
+
 
 ---
 
