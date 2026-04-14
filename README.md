@@ -72,10 +72,6 @@ Site web multi-pages présentant un métier scientifique, réalisé **sans JavaS
 🔗 Repository :  
 https://github.com/Flolink1er/jobs-presentation-website
 
----
-## Projet Angular en construction...
----
-
 ## Compétences mises en œuvre
 - HTML / CSS (Flexbox, media queries, animations)
 - JavaScript / TypeScript
@@ -85,6 +81,11 @@ https://github.com/Flolink1er/jobs-presentation-website
 - Git / GitHub
 
 ---
+### Projet Angular en construction : RPG Textuel
+
+🔗 Repository :  
+https://github.com/Flolink1er/ng-rpg
+
 
 ## Contact
 📄 [Mon CV](cv/Florian_Marchal_CV_Stage_Dev_Frontend.pdf) | 📧 [Email](mailto:flolink1er@gmail.com) | 🔗 [GitHub](https://github.com/Flolink1er)
