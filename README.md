@@ -25,17 +25,17 @@ une possibilité de collaboration à plus long terme.
 
 [Démo en ligne](https://flolink1er.github.io/andromesky/) · [Code source](https://github.com/Flolink1er/andromesky)
 
-## Le projet en une phrase
+**Le projet en une phrase**
 
 > AndromeSky transforme l'exploration d'une carte du ciel en une expérience web plus claire et interactive, associant recherche, fiches astronomiques et quiz.
 
-## Contexte et intention
+**Contexte et intention**
 
 Les outils d'astronomie existants sont souvent très complets, mais leurs interfaces peuvent être visuellement chargées pour une première exploration. Le projet ne cherche pas à remplacer un logiciel professionnel : il propose une entrée plus fluide vers des données astronomiques réelles, sans effacer leur richesse.
 
 L'enjeu était de réunir dans une seule expérience une carte céleste, une navigation par recherche, des données cohérentes et une dimension ludique.
 
-## Ma réponse
+**Ma réponse**
 
 - Une SkyMap interactive, construite sur Aladin Lite ;
 - Une recherche rapide dans un catalogue local normalisé ;
@@ -46,41 +46,43 @@ L'enjeu était de réunir dans une seule expérience une carte céleste, une nav
 
 ## Compétences mises en œuvre
 
-### Conception front-end
+**Conception front-end**
 
 J'ai construit une SPA Angular structurée en composants autonomes. La présentation est séparée de la logique métier : les composants gèrent l'interface, tandis que les services portent l'état, les catalogues, le score, la carte et les requêtes externes.
 
-### Gestion d'état réactive
+**Gestion d'état réactive**
 
 Les Angular Signals permettent de synchroniser naturellement l'interface avec le mode courant, la question, la sélection, le score et les retours de validation. Les signaux modifiables restent privés aux services et sont exposés en lecture seule aux composants.
 
-### Intégration d'une bibliothèque spécialisée
+**Intégration d'une bibliothèque spécialisée**
 
 Aladin Lite utilise une logique impérative de canevas. J'ai encapsulé cette intégration dans `SkyMapService` afin de gérer les marqueurs, les overlays, les constellations, le centrage et les interactions sans coupler directement les composants Angular à la bibliothèque.
 
-### Travail sur les données et les APIs
+**Travail sur les données et les APIs**
 
 Les données astronomiques viennent de catalogues historiques et hétérogènes. Elles ont été sélectionnées, normalisées et enrichies avec des alias pour assurer une recherche cohérente et des segments de constellations fiables.
 
 Les résultats Wikipédia et NASA sont traités avec une logique de recherche progressive, de score de pertinence et de cache. L'application préfère ne rien afficher plutôt que présenter une information d'un autre objet.
 
-### UX et gamification
+**UX et gamification**
 
 Le quiz de localisation utilise une distance angulaire vers la cible, avec des points progressifs selon la précision. Les gestes de glissement de carte sont distingués des clics pour éviter les sélections accidentelles sur mobile. Les indices apportent une aide contrôlée, en réduisant les points possibles.
 
-## Résultat
+**Résultat**
 
 Le projet aboutit à une application déployée, utilisable sur desktop et mobile, qui regroupe exploration, recherche, visualisation de constellations, enrichissement de contenu, quiz et suivi local des résultats.
 
 Il a été présenté comme travail de fin d'études à l'IFAPME et a obtenu la **grande distinction (80,88 %)**.
 
-## Technologies
+**Technologies**
 
 `Angular` · `TypeScript` · `Tailwind CSS` · `RxJS` · `Aladin Lite` · `Wikipédia API` · `NASA Image Library` · `localStorage`
 
 ## Suite possible
 
 Comptes et classement, données astronomiques enrichies, filtres avancés, éphémérides pour un ciel en temps réel et ajout des planètes sont les évolutions les plus naturelles du projet.
+
+---
 
 ### 🎮 Jeu multijoueur en ligne – *Le dé menteur*
 **Projet scolaire – réalisé en autonomie**
