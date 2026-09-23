@@ -1,19 +1,16 @@
 # Portfolio – Florian Marchal
-Stagiaire développeur web front-end  
-Formation IFAPME – Belgique
+Développeur web front-end junior
 
-📄 **CV (PDF)** : [Télécharger mon CV](cv/Florian_Marchal_CV_Stage_Dev_Frontend.pdf)
+📄 **CV (PDF)** : [Télécharger mon CV](cv/Florian_Marchal_CV_Dev_Frontend.pdf)
 
-🖨️ **CV Imprimable** : [Télécharger mon CV](cv/Florian_Marchal_CV_Stage_Dev_Frontend_printable.pdf)
+🖨️ **CV Imprimable** : [Télécharger mon CV](cv/Florian_Marchal_CV_Dev_Frontend_printable.pdf)
 
 
 ---
 
 ## À propos
-Développeur web front-end en formation IFAPME, avec un intérêt particulier pour
-la création d’interfaces modernes, responsives et bien structurées.
-Je recherche un **stage en développement web front-end**, idéalement avec
-une possibilité de collaboration à plus long terme.
+Développeur web front-end diplômé de l’IFAPME, avec une première expérience en création et refonte de sites web. 
+Je recherche un **emploi en développement web**.
 
 ---
 
